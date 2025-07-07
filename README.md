@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 리듬톡톡 랜딩 페이지
 
-## Getting Started
+음악 치료와 언어 교육을 결합한 혁신적인 어린이 학습 앱 **리듬톡톡**의 랜딩 페이지입니다.
 
-First, run the development server:
+## 🚀 시작하기
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+브라우저에서 `http://localhost:3000`을 열어 결과를 확인하세요.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 페이지 구성
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Header**: 네비게이션 및 브랜딩
+- **Hero**: 메인 소개 섹션  
+- **Features**: 4가지 핵심 특징
+- **Screenshots**: 앱 화면 미리보기 갤러리
+- **Content**: 학습 콘텐츠 소개
+- **Functions**: 주요 기능 설명
+- **Feedback**: 피드백 수집
+- **Footer**: 하단 정보
 
-## Learn More
+## 🛠 기술 스택
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 15** - React 프레임워크
+- **TypeScript** - 타입 안정성
+- **Tailwind CSS** - 유틸리티 기반 스타일링
+- **App Router** - 최신 라우팅 시스템
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 특징
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 반응형 디자인 (모바일 최적화)
+- 어린이 친화적 UI/UX
+- 현대적이고 직관적인 인터페이스
+- SEO 최적화 (메타데이터 포함)
+- 접근성 고려 설계
 
-## Deploy on Vercel
+## 🎯 대상 연령
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3세부터 7세까지의 어린이와 부모님을 대상으로 합니다.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 주요 기능
+
+### 왜 리듬톡톡인가요?
+- **음악 기반 학습**: 리듬과 멜로디를 통해 기억력과 학습 효과 극대화
+- **개별 맞춤 학습**: 각 어린이의 학습 속도에 맞춘 단계별 진행
+- **긍정적 피드백**: 모든 시도를 격려하는 스트레스 없는 학습 환경
+- **실시간 음성 인식**: 최신 AI 기술로 정확한 발음 연습 지원
+
+### 학습 콘텐츠
+- 신나는 아침, 냠냠 맛있는 점심, 즐거운 놀이 시간 등 일상 주제의 동요
+- 각 노래마다 핵심 단어 4개씩 집중 학습
+- 난이도별 3단계 구성으로 점진적 학습
+
+### 주요 기능
+- **노래 듣기**: 고품질 음원으로 정확한 발음 학습
+- **따라하기**: 단어별 세분화된 발음 연습
+- **음성 인식**: 실시간 발음 분석 및 피드백
+- **학습 기록**: 개인별 학습 진도 관리
+
+## 🏷️ 키워드
+
+언어치료, 언어인지교육, 발달재활, 언어교육, 언어치료사, 어린이, 동요, 음악치료
+
+## 📄 라이선스
+
+© 2024 리듬톡톡. All rights reserved.
