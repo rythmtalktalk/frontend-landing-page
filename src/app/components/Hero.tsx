@@ -3,9 +3,6 @@
 import React from 'react';
 
 export default function Hero() {
-  const handleAppStoreClick = () => {
-    alert('App Store 출시 준비 중입니다. 조금만 기다려주세요! 🍎');
-  };
 
   return (
     <section className="relative py-20 px-4 sm:px-6 lg:px-8">
@@ -32,13 +29,15 @@ export default function Hero() {
             <span>🤖</span>
             <span>Google Play에서 다운로드</span>
           </a>
-          <button 
-            onClick={handleAppStoreClick}
+          <a 
+            href="https://apps.apple.com/kr/app/%EB%A6%AC%EB%93%AC%ED%86%A1%ED%86%A1-%EC%9D%8C%EC%95%85%EC%B9%98%EB%A3%8C/id6747897179"
+            target="_blank"
+            rel="noopener noreferrer"
             className="border-2 border-purple-500 text-purple-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-purple-50 transition-all duration-300 inline-flex items-center justify-center space-x-2"
           >
             <span>🍎</span>
             <span>App Store에서 다운로드</span>
-          </button>
+          </a>
         </div>
       </div>
       
